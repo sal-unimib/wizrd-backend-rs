@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/src/repository/point.rs" value="bf4d34c7-c32e-4bcc-af33-584a04dd919b" />
+    <file url="file://$PROJECT_DIR$/src/repository/vehicle.rs" value="bf4d34c7-c32e-4bcc-af33-584a04dd919b" />
+  </component>
+</project>

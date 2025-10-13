@@ -1,0 +1,2 @@
+[default.databases]
+wizrd = { url = "postgres://admin:admin@localhost/wizrd" }
