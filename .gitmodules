@@ -1,0 +1,3 @@
+[submodule "wizrd-preprocessing"]
+	path = wizrd-preprocessing
+	url = https://github.com/sal-unimib/wizrd-preprocessing
