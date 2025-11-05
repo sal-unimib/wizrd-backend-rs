@@ -12,14 +12,27 @@ The WizRD Backend is an application comprised of three different modules, which 
 
 The containers talk to each other through an external network named `wizrd-net`.
 
+## Cloning
+
+This repository uses nested submodules. If you didn't clone with `--recurse-submodules`, you can use the following command to fetch all submodules:
+
+```console
+$ git submodule update --init --recursive
+```
+
 ## Bringup
 
 A `docker-compose.yml` file that can be used to automate the deployment is provided for convenience. Remember to create the network before bringing up the containers.
 
 ```console
-$ docker network create wizrd-net
-$ docker compose up
+# cd wizrd-preprocessing
+# ./get_map.sh
+# cd ..
+# docker network create wizrd-net
+# docker compose up
 ```
+
+A Dockerfile to automate the build and deployment of the application is provided for convenience. Super-user privileges are needed in order to use the Network.
 
 > If you're using `podman`, just `/s/docker/podman/` or `alias docker=podman`.
 
